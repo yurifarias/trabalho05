@@ -1,0 +1,3 @@
+C:/Users/yurif/CLionProjects/trabalho05/cmake-build-debug/CMakeFiles/trabalho05.dir
+C:/Users/yurif/CLionProjects/trabalho05/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/yurif/CLionProjects/trabalho05/cmake-build-debug/CMakeFiles/rebuild_cache.dir

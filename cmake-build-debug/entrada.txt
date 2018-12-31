@@ -1,0 +1,45 @@
+Projeto Estruturas
+----------------------------------------------------------------------------------------------------
+Número de elementos
+10
+----------------------------------------------------------------------------------------------------
+Configuração dos elementos          Características físicas e geométricas                       Carregamentos distribuídos
+Elemento    Nó inicial  Nó final    Mod. El (MPa)   M. Esp (kg/m³)  Largura (m)     Altura (m)  Ni (kN/m)   Nf (kN/m)   Qi (kN/m)   Qf (N/m)
+1           1           2           35000.0         2500.0          0.80            0.80        0.0         0.0         0.0         0.0
+2           2           4           35000.0         2500.0          0.80            0.80        0.0         0.0         0.0         0.0
+3           3           2           35000.0         2500.0          1.00            0.80        0.0         0.0         0.0         0.0
+4           2           5           35000.0         2500.0          1.00            0.80        0.0         0.0         0.0         0.0
+5           5           6           35000.0         2500.0          1.00            0.80        0.0         0.0         0.0         0.0
+6           6           8           35000.0         2500.0          1.00            0.80        0.0         0.0         0.0         0.0
+7           9           6           35000.0         2500.0          1.00            0.80        0.0         0.0         0.0         0.0
+8           6           7           35000.0         2500.0          0.80            0.80        0.0         0.0         0.0         0.0
+9           3           4           200000.0        7860.0          0.00            0.20        0.0         0.0         0.0         0.0
+10          7           8           200000.0        7860.0          0.00            0.20        0.0         0.0         0.0         0.0
+----------------------------------------------------------------------------------------------------
+Número de nos
+9
+----------------------------------------------------------------------------------------------------
+Configuração dos nós                Cargas nodais                       Restrições (TRUE/FALSE)             Carga móvel
+No          X (m)       Y (m)       Fx (kN)     Fy (kN)     M (kNm)     Direção x   Direção y   Rotação     Fx (kN)     Fy (kN)     Mz (kNm)
+1           10.0        0.0         0.0         0.0         0.0         .TRUE.      .TRUE.      .TRUE.      0.0         0.0         0.0
+2           10.0        5.0         0.0         0.0         0.0         .FALSE.     .FALSE.     .FALSE.     0.0         0.0         0.0
+3           0.0         5.0         0.0         0.0         0.0         .FALSE.     .FALSE.     .FALSE.     0.0         0.0         0.0
+4           10.0        11.0        0.0         0.0         0.0         .FALSE.     .FALSE.     .FALSE.     0.0         0.0         0.0
+5           25.0        5.0         0.0         0.0         0.0         .FALSE.     .FALSE.     .FALSE.     0.0         -450.0      0.0
+6           40.0        5.0         0.0         0.0         0.0         .FALSE.     .FALSE.     .FALSE.     0.0         0.0         0.0
+7           40.0        11.0        0.0         0.0         0.0         .FALSE.     .FALSE.     .FALSE.     0.0         0.0         0.0
+8           50.0        5.0         0.0         0.0         0.0         .FALSE.     .FALSE.     .FALSE.     0.0         0.0         0.0
+9           40.0        0.0         0.0         0.0         0.0         .TRUE.      .TRUE.      .TRUE.      0.0         0.0         0.0
+----------------------------------------------------------------------------------------------------
+Matriz de massa (C: Consistente; L: Lumped)
+L
+Carga móvel (S: Sim; N: Não)
+S
+Tempo da carga móvel
+Ti (s)      Tf (s)
+0.0         10.0
+Matriz de amortecimento (S: Sim; N: Não)
+S
+[C] = a0[M] + a1[k] (caso não tenha matriz de amortecimento, deixar sem valores abaixo de a0 e a1)
+a0           a1
+0.02         0.01
